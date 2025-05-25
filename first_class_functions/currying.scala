@@ -4,7 +4,6 @@ What is Currying?
 
 Currying is the process of transforming a function that takes multiple arguments into a series of functions, each taking one argument at a time.
 
-
  */
 
 def add(a: Int)(b: Int): Int = a+b
