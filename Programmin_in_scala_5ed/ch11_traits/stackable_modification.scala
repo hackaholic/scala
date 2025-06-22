@@ -7,6 +7,7 @@ abstract class IntQueue {
 
 class BasicIntQueue extends IntQueue:
     private val buf = ArrayBuffer[Int]()   // ArrayBuffer.empty[Int]
+    // You’re allowed to implement abstract methods silently because you have to — there’s nothing to override yet.
     def get: Int = buf.remove(0)
     def put(x: Int): Unit = buf.addOne(x)
 
